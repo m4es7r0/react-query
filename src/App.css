@@ -1,0 +1,46 @@
+nav ul {
+  display: flex;
+  background-color: blanchedalmond;
+  margin-block-start: 0;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 16px;
+}
+
+/* RQParallel Page */
+
+.list-of-heroes {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  gap: 20px;
+}
+
+.list-of-heroes ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-of-heroes ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.list-of-heroes ul:last-of-type span {
+  position: relative;
+}
+
+.list-of-heroes ul:last-of-type span::before {
+  content: "";
+  background: black;
+  position: absolute;
+  top: 0%;
+  left: -10%;
+  height: 30%;
+  transform: translateY(125%);
+  width: 2px;
+}

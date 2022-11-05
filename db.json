@@ -1,0 +1,49 @@
+{
+  "superheroes": [
+    {
+      "id": 1,
+      "name": "Batman",
+      "alterEgo": "Bruce Wayne"
+    },
+    {
+      "id": 2,
+      "name": "Superman",
+      "alterEgo": "Clark Kent"
+    },
+    {
+      "id": 3,
+      "name": "Wonder Woman",
+      "alterEgo": "Princess Diana"
+    }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "Chandler Bing"
+    },
+    {
+      "id": 2,
+      "name": "Joey Tribbiani"
+    },
+    {
+      "id": 3,
+      "name": "Rachel Green"
+    }
+  ],
+  "users": [
+    {
+      "id": "dodogof02@gmail.com",
+      "channelId": "m4es7r0"
+    }
+  ],
+  "channels": [
+    {
+      "id": "m4es7r0",
+      "repo": [
+        "react",
+        "toolkit",
+        "react-query"
+      ]
+    }
+  ]
+}
