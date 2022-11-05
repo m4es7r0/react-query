@@ -19,6 +19,7 @@ import "./App.css";
 import { hoverActive } from "./util/hoverActive";
 import { DynamicParallelQueryPage } from "./components/DynamicParallelQueryPage";
 import { DependentQueryPage } from "./components/DependentQueryPage";
+import { PagenatedQueriesPage } from "./components/PagenatedQueriesPage";
 
 const queryClient = new QueryClient();
 
@@ -96,10 +97,23 @@ function App() {
                   RQ Dependent
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  exact
+                  to="/rq-pagenation"
+                  className="links"
+                  activeClassName="active"
+                >
+                  RQ Pagenation
+                </NavLink>
+              </li>
             </ul>
           </nav>
           <div className="container">
             <Switch>
+              <Route path="/rq-pagenation">
+                <PagenatedQueriesPage />
+              </Route>
               <Route path="/rq-dependent">
                 <DependentQueryPage email="dodogof02@gmail.com" />
               </Route>

@@ -33,12 +33,22 @@ p {
 button {
   padding: 5px 10px;
   background-color: #1e1e1e;
-  border: none;
   border-radius: 100px;
   border: 0.1rem solid transparent;
   font-size: 14px;
   color: #fff;
   transition: all 0.1s ease;
+  cursor: pointer;
+}
+
+button[disabled] {
+  opacity: .5;
+  cursor: default;
+}
+button[disabled]:hover {
+  background-color: #1e1e1e;
+  border: 0.1rem solid transparent;
+  color: #fff;
 }
 
 button:hover {

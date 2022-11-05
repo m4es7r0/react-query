@@ -33,6 +33,10 @@ export const hoverActive = (obj) => {
                     links[5].classList.add('active')
                     break
                 }
+                case 'http://localhost:3000/rq-pagenation': {
+                    links[6].classList.add('active')
+                    break
+                }
             }
         }
     }

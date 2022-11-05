@@ -45,5 +45,31 @@
         "react-query"
       ]
     }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "label": "red"
+    },
+    {
+      "id": 2,
+      "label": "green"
+    },
+    {
+      "id": 3,
+      "label": "blue"
+    },
+    {
+      "id": 4,
+      "label": "black"
+    },
+    {
+      "id": 5,
+      "label": "white"
+    },
+    {
+      "id": 6,
+      "label": "gray"
+    }
   ]
 }
